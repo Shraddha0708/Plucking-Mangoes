@@ -8,7 +8,7 @@ class Tree {
 		this.height=600;
 		this.thickness=10;
 		
-		this.image=loadImage("plucking+mangoes/Plucking mangoes/tree.png");
+		this.image=loadImage("tree.png");
 		this.Body = Bodies.rectangle(this.x, this.y, this.width, this.thickness, {isStatic:true});
 		World.add(world, this.Body);
 
